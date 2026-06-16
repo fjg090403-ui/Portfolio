@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!assets|favicon.svg|cv-francisco-javier-requena.html).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
