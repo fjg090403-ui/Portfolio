@@ -1,5 +1,5 @@
 import { ArrowRight, Mail, Sparkles } from 'lucide-react'
-import { Aurora, Particles, Threads } from '../components/Effects'
+import { Aurora } from '../components/Effects'
 import { AnimatedContent, CardSwap, CpuBadge, MagneticButton, SignalMatrix } from '../components/UI'
 import { BlurText, GradientText, RotatingText, ShinyText } from '../components/TextEffects'
 
@@ -7,8 +7,6 @@ export default function HomePage({ navigate }: { navigate: (path: string) => voi
   return (
     <section className="hero-page">
       <Aurora />
-      <Threads />
-      <Particles density={10} />
       <div className="relative z-10 mx-auto grid min-h-[calc(100vh-8rem)] max-w-7xl items-center gap-8 px-5 pb-28 pt-24 sm:px-8 lg:grid-cols-[1.08fr_0.92fr] lg:px-12">
         <AnimatedContent>
           <ShinyText className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-cyan-100">

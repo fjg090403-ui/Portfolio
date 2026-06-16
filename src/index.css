@@ -84,13 +84,12 @@ a {
 }
 
 .aurora {
-  opacity: 0.62;
+  opacity: 0.42;
   background:
-    radial-gradient(ellipse at 18% 16%, rgba(40, 216, 255, 0.5), transparent 35%),
-    radial-gradient(ellipse at 75% 18%, rgba(177, 108, 255, 0.42), transparent 38%),
-    radial-gradient(ellipse at 58% 77%, rgba(111, 255, 210, 0.16), transparent 38%);
-  filter: blur(20px) saturate(1.18);
-  animation: aurora 18s ease-in-out infinite alternate;
+    radial-gradient(ellipse at 18% 16%, rgba(40, 216, 255, 0.35), transparent 34%),
+    radial-gradient(ellipse at 75% 18%, rgba(177, 108, 255, 0.28), transparent 36%),
+    radial-gradient(ellipse at 58% 77%, rgba(111, 255, 210, 0.12), transparent 36%);
+  filter: blur(10px);
 }
 
 .threads {
@@ -636,6 +635,10 @@ a {
     rgba(255, 255, 255, 0.035);
   animation: soft-pop 3.4s ease-in-out infinite;
   animation-delay: var(--delay);
+}
+
+.hero-console .signal-matrix span {
+  animation: none;
 }
 
 .tilted-card {
